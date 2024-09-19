@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homePage');
 });
 
-Route::get('/faleconosco', function() {
-    return view('faleconosco');
+Route::get('/skins', function () {
+    return view('skins');
 });
