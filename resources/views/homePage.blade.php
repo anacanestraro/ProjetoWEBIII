@@ -23,11 +23,11 @@
     <div class="d-flex flex-column wrapper">
     <!--navbar-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary-color" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-color" id="navbar">
             <div class="container py-1">
                 <a href="#" class="navbar-brand">
-                    <img src="/img/logo.png" alt="Logo Valorant">
-                    <span>ValorantSearch</span>
+                    <img src="/img/logo.png" alt="Logo Cãotinho">
+                    <span>CãotinhoPet</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
                     aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,10 @@
                             <a href="#" class="nav-link active" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/skins" class="nav-link primary-color">Skins</a>
+                            <a href="/skins" class="nav-link primary-color">Cães</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/personagens" class="nav-link primary-color">Personagens</a>
+                            <a href="/personagens" class="nav-link primary-color">Gatos</a>
                         </li>
                     </ul>
                 </div>
