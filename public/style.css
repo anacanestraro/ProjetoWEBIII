@@ -28,7 +28,7 @@
   }
   
   #navbar a {
-    color: #8f5bbd;
+    color: white;
   }
   
   #navbar a:hover {
@@ -36,7 +36,7 @@
   }
   
   #navbar .active {
-    border-bottom: 1px solid #8f5bbd;
+    border-bottom: 1px solid white;
   }
   
   .navbar-brand {
@@ -79,7 +79,7 @@
 
   #footer-top,
   #footer-top i{
-    color:white;
+    color:#8f5bbd;
   }
 
   #social-icons{
@@ -110,7 +110,7 @@
   }
 
   #footer-details h4{
-    color: white;
+    color: #8f5bbd;
     margin-bottom: 1.5em;
   }
 
@@ -127,7 +127,7 @@
   }
 
   #links-container a:hover{
-    color: white;
+    color: #8f5bbd;
   }
 
   /*FOOTER PARTE DE BAIXO*/

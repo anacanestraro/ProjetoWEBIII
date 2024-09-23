@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArtSearch</title>
+    <title>CãotinhoPet</title>
     <!--css bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -56,13 +56,13 @@
     
     
     <!--footer-->
-    <footer class="container-fluid bg-dark-color" id="footer">
+    <footer class="container-fluid bg-color" id="footer">
         <div class="container">
             <div class="row">
                 <!--topo footer-->
                 <div class="col-12" id="footer-top">
                     <div class="row justify-content-between">
-                        <div class="col-4"><h2>ValorantSearch</h2></div>
+                        <div class="col-4"><h2>CãotinhoPet</h2></div>
                         <div class="col-4" id="social-icons">
                             <i class="bi bi-facebook"></i>
                             <i class="bi bi-instagram"></i>
@@ -94,8 +94,8 @@
                                 <h4>Buscar</h4>
                                 <div class="col-6">
                                     <ul class="list-unstyled">
-                                        <li><a href="#" class="secondary-color">Personagens</a></li>
-                                        <li><a href="/skins" class="secondary-color">Skins</a></li>
+                                        <li><a href="/caes" class="secondary-color">Cães</a></li>
+                                        <li><a href="/gatos" class="secondary-color">Gatos</a></li>
                                     
                                     </ul>
                                 </div>
@@ -114,10 +114,10 @@
                 <div class="col-12" id="footer-bottom">
                     <div class="row justify-content-between">
                         <div class="col-12 col-md-3">
-                            <p class="secondary-color">ValorantSearch&copy; 2023</p>
+                            <p class="secondary-color">CãotinhoPet&copy; 2024</p>
                         </div>
                         <div class="col-12 col-md-3">
-                            <p class="secondary-color">Saiba tudo sobre os personagens!</p>
+                            <p class="secondary-color">Adote de forma rápida e segura!</p>
                         </div>
                     </div>
                 </div>
