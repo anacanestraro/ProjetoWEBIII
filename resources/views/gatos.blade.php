@@ -27,7 +27,7 @@
             <div class="container py-1">
                 <a href="#" class="navbar-brand">
                     <img src="/img/logo.png" alt="Logo Cãotinho">
-                    <span>CãotinhoPet</span>
+                    <span class="primary-color">CãotinhoPet</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
                     aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
