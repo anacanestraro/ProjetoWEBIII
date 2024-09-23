@@ -37,13 +37,13 @@
                 <div class="collapse navbar-collapse" id="navbar-items">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                            <a href="/" class="nav-link" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="/caes" class="nav-link primary-color">Cães</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/gatos" class="nav-link primary-color">Gatos</a>
+                            <a href="/gatos" class="nav-link primary-color active">Gatos</a>
                         </li>
                     </ul>
                 </div>
@@ -53,23 +53,7 @@
     </header>
 
     <!--MAIN-->
-    <main class="flex-fill">
-        <div class="container">
-            <div class="row ">
-                <div class="col-12 mt-3 ">
-                    <form action="post" class="justify-content-center justify-content-md-start mb-3">
-                        <div class="input-group input-group-sm">
-                            <input id="albumInput" type="text" class="form-control" placeholder="Digite aqui o nome do álbum">
-                            <button id="buscarButton" class="btn btn-dark">Buscar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="containercards">
-            
-        </div>
-    </main>
+    
     
     <!--footer-->
     <footer class="container-fluid bg-dark-color" id="footer">

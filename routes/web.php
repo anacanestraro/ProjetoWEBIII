@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('homePage');
 });
 
-Route::get('/skins', function () {
-    return view('skins');
+Route::get('/caes', function () {
+    return view('caes');
+});
+
+Route::get('/gatos', function(){
+    return view('gatos');
 });

@@ -15,7 +15,7 @@
   }
   
   .primary-color {
-    color: #050505;
+    color: #8f5bbd;
   }
   
   .secondary-color {
@@ -24,11 +24,11 @@
   
   /* NAVBAR */
   #navbar {
-    border-bottom: 1px solid #7a7a7a;
+    border-bottom: 2px solid #9eb95c;
   }
   
   #navbar a {
-    color: #050505;
+    color: #8f5bbd;
   }
   
   #navbar a:hover {
@@ -36,7 +36,7 @@
   }
   
   #navbar .active {
-    border-bottom: 1px solid #050505;
+    border-bottom: 1px solid #8f5bbd;
   }
   
   .navbar-brand {

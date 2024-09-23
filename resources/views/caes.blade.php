@@ -23,11 +23,11 @@
     <div class="d-flex flex-column wrapper">
     <!--navbar-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary-color" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-color" id="navbar">
             <div class="container py-1">
                 <a href="#" class="navbar-brand">
-                    <img src="/img/logo.png" alt="Logo Valorant">
-                    <span>ValorantSearcasdASh</span>
+                    <img src="/img/logo.png" alt="Logo Cãotinho">
+                    <span>CãotinhoPet</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
                     aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +37,13 @@
                 <div class="collapse navbar-collapse" id="navbar-items">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                            <a href="/" class="nav-link" aria-current="page">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link primary-color">Skins</a>
+                            <a href="/caes" class="nav-link primary-color active">Cães</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link primary-color">Personagens</a>
+                            <a href="/gatos" class="nav-link primary-color">Gatos</a>
                         </li>
                     </ul>
                 </div>
@@ -53,17 +53,7 @@
     </header>
 
     <!--MAIN-->
-    <main class="flex-fill">
-        <div class="container">
-            <div class="row ">
-                <div class="col-12 mt-3 ">
-                </div>
-            </div>
-        </div>
-        <div class="containercards">
-            
-        </div>
-    </main>
+    
     
     <!--footer-->
     <footer class="container-fluid bg-dark-color" id="footer">
@@ -105,7 +95,7 @@
                                 <div class="col-6">
                                     <ul class="list-unstyled">
                                         <li><a href="#" class="secondary-color">Personagens</a></li>
-                                        <li><a href="#" class="secondary-color">Skins</a></li>
+                                        <li><a href="/skins" class="secondary-color">Skins</a></li>
                                     
                                     </ul>
                                 </div>
