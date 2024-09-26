@@ -16,9 +16,8 @@ Route::get('/gatos', function(){
 
 Route::get('/teste', function () {
 
-    $produto = 'maçã';
-    $valor = 12.20;
-
-    return view('teste' , compact('produto','valor'));
+    $clientes = array("Sandra", "Antonio", "Luiz");
+    
+    return view('teste' , compact('clientes'));
     
     });
