@@ -13,3 +13,12 @@ Route::get('/caes', function () {
 Route::get('/gatos', function(){
     return view('gatos');
 });
+
+Route::get('/teste', function () {
+
+    $produto = 'maçã';
+    $valor = 12.20;
+
+    return view('teste' , compact('produto','valor'));
+    
+    });
