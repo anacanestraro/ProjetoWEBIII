@@ -11,11 +11,8 @@
 
     {{--aaaaaaaa--}}
 
-   
+   <p>{{$nome}}</p>
 
-    @foreach($clientes as $cliente)
-        <p>{{$cliente}}</p>
-    @endforeach
-
+  
 </body>
 </html>

@@ -1,23 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TesteController;
 
-Route::get('/', function () {
-    return view('homePage');
-});
+Route::get('/', [TesteController::class, 'homePage']);
 
-Route::get('/caes', function () {
-    return view('caes');
-});
+Route::get('/caes', [TesteController::class, 'caes']);
 
-Route::get('/gatos', function(){
-    return view('gatos');
-});
+Route::get('/gatos', [TesteController::class, 'gatos']);
 
-Route::get('/teste', function () {
-
-    $clientes = array("Sandra", "Antonio", "Luiz");
-    
-    return view('teste' , compact('clientes'));
-    
-    });
+Route::get('/teste', [TesteController::class, 'teste']); // Exemplo convocando o controlador
